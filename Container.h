@@ -5,7 +5,7 @@
 
 template <typename Type>
 class Container {
-  public:
+  private:
   struct Node {
     Type _value;
     Node *_prev = nullptr;

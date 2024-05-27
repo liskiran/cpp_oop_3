@@ -11,7 +11,7 @@ class Container {
     Node *_prev = nullptr;
     Node *_next = nullptr;
 
-    explicit Node() : _value(0), _prev(nullptr), _next(nullptr) {
+    explicit Node() : _prev(nullptr), _next(nullptr) {
     }
 
     explicit Node(Type value) : _value(value), _prev(nullptr), _next(nullptr) {
